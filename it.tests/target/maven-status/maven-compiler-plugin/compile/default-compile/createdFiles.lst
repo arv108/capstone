@@ -1,0 +1,4 @@
+com\gofortrainings\capstone\it\tests\CreatePageIT.class
+com\gofortrainings\capstone\it\tests\GetPageIT.class
+com\gofortrainings\capstone\it\tests\PublishPageValidationIT.class
+com\gofortrainings\capstone\it\tests\HtmlUnitClient.class

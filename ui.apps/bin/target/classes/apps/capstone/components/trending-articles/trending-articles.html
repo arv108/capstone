@@ -1,0 +1,23 @@
+<sly data-sly-use.bannerHomeModel = "com.gofortrainings.capstone.core.models.HomeBannerModel"/>
+
+<div class="container-fluid pb-4 pt-5">
+    <div class="container animate-box fadeInUp animated-fast">
+        <div>
+            <div class="fh5co_heading fh5co_heading_border_bottom py-2 mb-4">Trending</div>
+        </div>
+        <div class="owl-carousel owl-theme owl-loaded owl-drag" id="slider2">  
+        <div class="owl-stage-outer">
+		<div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1254px;" data-sly-list.article = "${bannerHomeModel.bannerArticles}">
+          <div class="owl-item active" style="width: 303.333px; margin-right: 10px;"><div class="item px-2">
+                <div class="fh5co_hover_news_img">
+                    <div class="fh5co_news_img"><img src="${article.bannerImage @context = 'unsafe'}" alt=""></div>
+                    <div>
+                        <a href="#" class="d-block fh5co_small_post_heading"><span class="">${article.bannerText}</span></a>
+                        <div class="c_g"><i class="fa fa-clock-o"></i>${article.pageCreatedDate}</div>
+                    </div>
+                </div>
+            </div>
+		</div>
+		</div></div><div class="owl-nav"><div class="owl-prev disabled"><i class="fa fa-angle-left"></i></div><div class="owl-next"><i class="fa fa-angle-right"></i></div></div><div class="owl-dots disabled"></div></div>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>capstone - All</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="created">2022-10-18T00:36:49.027Z</entry>
+<entry key="groupId">com.gofortrainings.capstone</entry>
+<entry key="name">capstone.all</entry>
+<entry key="description">All content package for capstone</entry>
+<entry key="artifactId">capstone.all</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.gofortrainings.capstone</entry>
+</properties>

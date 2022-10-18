@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.gofortrainings.capstone.core.services.TrendingArticleServiceImpl" immediate="true" activate="activate">
+  <property name="youtubeUrl" type="String" value="https://www.youtube.com/oembed?url="/>
+  <property name="articlePagePath" type="String" value="/content/capstone/us/en/articles"/>
+  <service>
+    <provide interface="com.gofortrainings.capstone.core.services.TrendingArticleService"/>
+  </service>
+  <reference name="factory" interface="org.apache.sling.api.resource.ResourceResolverFactory" field="factory"/>
+  <reference name="queryBuilder" interface="com.day.cq.search.QueryBuilder" field="queryBuilder"/>
+  <implementation class="com.gofortrainings.capstone.core.services.TrendingArticleServiceImpl"/>
+</scr:component>

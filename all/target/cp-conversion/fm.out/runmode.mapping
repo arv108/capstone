@@ -1,0 +1,5 @@
+#File edited by the Apache Sling Content Package to Sling Feature converter
+#Tue Oct 11 06:37:15 IST 2022
+author=capstone.all-author.json
+publish=capstone.all-publish.json
+(default)=capstone.all.json

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/com.gofortrainings.capstone.core.services.CapstoneConfigration">
+  <OCD id="com.gofortrainings.capstone.core.services.CapstoneConfigration" name="Com gofortrainings capstone core services capstone configration" description="">
+    <AD id="youtubeUrl" type="String" name="YouTube Url" default="https://www.youtube.com/oembed?url="/>
+    <AD id="articlePagePath" type="String" name="Article Page Path" default="/content/capstone/us/en/articles"/>
+  </OCD>
+  <Designate pid="com.gofortrainings.capstone.core.services.TrendingArticleServiceImpl">
+    <Object ocdref="com.gofortrainings.capstone.core.services.CapstoneConfigration"/>
+  </Designate>
+</metatype:MetaData>

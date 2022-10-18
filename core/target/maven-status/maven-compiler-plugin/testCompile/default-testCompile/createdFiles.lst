@@ -1,0 +1,7 @@
+com\gofortrainings\capstone\core\filters\LoggingFilterTest.class
+com\gofortrainings\capstone\core\schedulers\SimpleScheduledTaskTest.class
+com\gofortrainings\capstone\core\testcontext\AppAemContext$1.class
+com\gofortrainings\capstone\core\testcontext\AppAemContext.class
+com\gofortrainings\capstone\core\listeners\SimpleResourceListenerTest.class
+com\gofortrainings\capstone\core\models\HelloWorldModelTest.class
+com\gofortrainings\capstone\core\servlets\SimpleServletTest.class

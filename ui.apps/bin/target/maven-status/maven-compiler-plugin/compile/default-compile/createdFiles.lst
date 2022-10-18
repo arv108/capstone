@@ -1,0 +1,11 @@
+org\apache\sling\scripting\sightly\apps\capstone\components\page\customfooterlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\capstone\components\page\customheaderlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\capstone\components\helloworld\helloworld__002e__html.class
+org\apache\sling\scripting\sightly\apps\capstone\components\xfpage\customfooterlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\capstone\components\navigation\navigation__002e__html.class
+org\apache\sling\scripting\sightly\apps\capstone\components\primaryheader\primaryheader__002e__html.class
+org\apache\sling\scripting\sightly\apps\capstone\components\xfpage\content__002e__html.class
+org\apache\sling\scripting\sightly\apps\capstone\components\nevigationheader\nevigationheader__002e__html.class
+org\apache\sling\scripting\sightly\apps\capstone\components\secondaryheader\secondaryheader__002e__html.class
+org\apache\sling\scripting\sightly\apps\capstone\components\xfpage\customheaderlibs__002e__html.class
+org\apache\sling\scripting\sightly\apps\capstone\components\footer\footer__002e__html.class
